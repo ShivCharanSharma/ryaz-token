@@ -14,7 +14,7 @@ const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || 'key';
 const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY || 'key';
 
 const config: HardhatUserConfig = {
-  solidity: '0.8.18',
+  solidity: '0.8.9',
   defaultNetwork: 'hardhat',
   networks: {
     goeril: {

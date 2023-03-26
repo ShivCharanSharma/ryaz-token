@@ -4,6 +4,7 @@ import 'hardhat-gas-reporter';
 import '@nomiclabs/hardhat-etherscan';
 import 'solidity-coverage';
 import 'hardhat-deploy';
+import '@openzeppelin/hardhat-upgrades';
 
 import { HardhatUserConfig } from 'hardhat/config';
 
